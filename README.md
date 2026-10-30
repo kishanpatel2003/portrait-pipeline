@@ -34,7 +34,7 @@ Scripts resolve dataset, report, and output paths relative to the repo. Scoring 
 
 ```sh
 npm test
-python3 -m unittest discover -s pipeline/tests -p 'test_*_synthetic.py' -v
+python3 -m unittest discover -s pipeline/tests -p 'test_*.py' -v
 python3 -m compileall -q pipeline
 ```
 
