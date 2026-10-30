@@ -1,0 +1,30 @@
+# Input/output photos, embeddings, model artifacts and generated reports are local.
+dataset/
+experiments/
+generated/
+node_modules/
+.env
+.env.*
+!.env.example
+pipeline/.venv/
+pipeline/loras/
+pipeline/budget_allowance.json
+pipeline/critic/cache/
+pipeline/critic/metrics.json
+*.joblib
+*.safetensors
+*.onnx
+*.npy
+*.npz
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Identity inputs and visual outputs never belong in this code edition.
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+*.zip
